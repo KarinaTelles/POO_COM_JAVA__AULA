@@ -1,13 +1,10 @@
 package src.main.classeobjeto;
 
-public class Carro {
+public class Carro extends Veiculo{
     private String marca;
     private String modelo;
     private int ano;
 
-    public void acelerar() {
-        System.out.println("O carro está acelerando!");
-    }
     public void setMarca(String marca){
         this.marca = marca;
     }
