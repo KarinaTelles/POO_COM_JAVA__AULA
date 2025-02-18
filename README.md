@@ -7,7 +7,7 @@
 * Herança
 * Polimorfismo
 * Abstração
-* Associação, agragação e composição
+* Associação, agregação e composição
 * Construtores
 * Modificadores de acesso
 * Pacotes
