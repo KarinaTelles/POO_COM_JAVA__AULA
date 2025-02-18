@@ -1,4 +1,4 @@
-﻿## POO_COM_JAVA__AULA
+﻿## Aula de POO com Java
 
  Aula de 15 minutos sobre Programação Orientada a Objetos com Java.
 
