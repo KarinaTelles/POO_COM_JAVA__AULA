@@ -16,7 +16,7 @@ public class Main {
         corollaCross.setModelo("Corolla Cross");
 
         System.out.println(dolphin.toString());
-//        System.out.println(corollaCross.toString());
+        System.out.println(corollaCross.toString());
         dolphin.ligar();
         dolphin.mover();
         dolphin.acelerar();

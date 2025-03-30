@@ -4,6 +4,7 @@ public class Carro extends Veiculo{
     private String marca;
     private String modelo;
     private int ano;
+    private int quantidadeDePortas;
 
     public void setMarca(String marca){
         this.marca = marca;
@@ -21,6 +22,7 @@ public class Carro extends Veiculo{
         this.ano = ano;
     }
 
+    //Classe Carro.java
     @Override
     public void ligar(){
         System.out.println("Carro ligado!");
