@@ -1,6 +1,6 @@
 package src.main.classeobjeto;
 
-public class Carro extends Veiculo{
+public class Carro extends Veiculo implements Eletric{
     private String marca;
     private String modelo;
     private int ano;
@@ -34,5 +34,10 @@ public class Carro extends Veiculo{
                 ", modelo='" + modelo + '\'' +
                 ", ano=" + ano +
                 '}';
+    }
+
+    @Override
+    public void carregar() {
+        System.out.println("Carregando...");
     }
 }
